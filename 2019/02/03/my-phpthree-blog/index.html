@@ -104,18 +104,18 @@
 
 
 
-<meta name="description" content="前言之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽然可以把html页面转换成pdf文件，但是它只能转">
+<meta name="description" content="前言 &amp;emsp;&amp;emsp;之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 &amp;emsp;&amp;emsp;pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽">
 <meta name="keywords" content="PHP生成PDF">
 <meta property="og:type" content="article">
 <meta property="og:title" content="史上最强php生成pdf文件,html转pdf文件方法">
 <meta property="og:url" content="http://yoursite.com/2019/02/03/my-phpthree-blog/index.html">
 <meta property="og:site_name" content="Coders">
-<meta property="og:description" content="前言之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽然可以把html页面转换成pdf文件，但是它只能转">
+<meta property="og:description" content="前言 &amp;emsp;&amp;emsp;之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 &amp;emsp;&amp;emsp;pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-15T08:38:38.147Z">
+<meta property="og:updated_time" content="2019-08-16T02:03:34.825Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="史上最强php生成pdf文件,html转pdf文件方法">
-<meta name="twitter:description" content="前言之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽然可以把html页面转换成pdf文件，但是它只能转">
+<meta name="twitter:description" content="前言 &amp;emsp;&amp;emsp;之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。 &amp;emsp;&amp;emsp;pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽">
 
 
 
@@ -400,10 +400,11 @@
       
 
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。</p>
-<p>pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽然可以把html页面转换成pdf文件，但是它只能转换一般简单的html代码，如果你的html内容要的是通过后台新闻编辑器排版的那肯定不行的。</p>
-<p>纠结了半天，什么百度，谷歌搜索都用了，搜索了半天，功夫不负有心人，终于找到一个非常好用的方法了，下面就隆重介绍。</p>
-<p>它就是：wkhtmltopdf，wkhtmltopdf可以直接把任何一个可以在浏览器中浏览的网页直接转换成一个pdf，首先说明一下它不是一个php类，而是一个把html页面转换成pdf的一个软件，但是它并不是一个简单的桌面软件，而且它直接cmd批处理的。而且php有个shell_exec()函数。下面就一步一步介绍如何用php来让它生成pdf文件的方法。</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><hr>
+<p>&emsp;&emsp;之前有个客户需要把一些html页面生成pdf文件，然后我就找一些用php把html页面围成pdf文件的类。方法是可谓是找了很多很多，什么html2pdf,pdflib,FPDF这些都试过了，但是都没有达到我要的求。</p>
+<p>&emsp;&emsp;pdflib,FPDF这两个方法是需要编写程序去生成pdf的，就也是讲不支持直接把html页面转换成pdf；html2pdf这个虽然可以把html页面转换成pdf文件，但是它只能转换一般简单的html代码，如果你的html内容要的是通过后台新闻编辑器排版的那肯定不行的。</p>
+<p>&emsp;&emsp;纠结了半天，什么百度，谷歌搜索都用了，搜索了半天，功夫不负有心人，终于找到一个非常好用的方法了，下面就隆重介绍。</p>
+<p>&emsp;&emsp;它就是：wkhtmltopdf，wkhtmltopdf可以直接把任何一个可以在浏览器中浏览的网页直接转换成一个pdf，首先说明一下它不是一个php类，而是一个把html页面转换成pdf的一个软件，但是它并不是一个简单的桌面软件，而且它直接cmd批处理的。而且php有个shell_exec()函数。下面就一步一步介绍如何用php来让它生成pdf文件的方法。</p>
 <a id="more"></a>
 
 <h3 id="1-下载并安装pdf"><a href="#1-下载并安装pdf" class="headerlink" title="1.下载并安装pdf"></a>1.下载并安装pdf</h3><hr>
@@ -667,7 +668,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -678,7 +679,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -689,7 +690,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

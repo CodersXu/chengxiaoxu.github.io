@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-06T06:51:15.784Z</updated>
+  <updated>2019-12-04T03:45:20.699Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo开启打赏功能</title>
+    <link href="http://yoursite.com/2019/12/04/hexo-one-blog/"/>
+    <id>http://yoursite.com/2019/12/04/hexo-one-blog/</id>
+    <published>2019-12-04T03:06:00.000Z</published>
+    <updated>2019-12-04T03:45:20.699Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hexo的next主题打赏"><a href="#Hexo的next主题打赏" class="headerlink" title="Hexo的next主题打赏"></a>Hexo的next主题打赏</h3><h5 id="增加打赏配置"><a href="#增加打赏配置" class="headerlink" title="增加打赏配置"></a>增加打赏配置</h5><a id="more"></a><hr><ul><li><p>1、准备支付宝和微信二维码</p><ul><li>微信生成二维码教程<a href="https://jingyan.baidu.com/article/b907e627b641b646e6891c6b.html" target="_blank" rel="noopener">地址</a></li><li>支付宝生成二维码<a href="https://jingyan.baidu.com/article/e2284b2b9e5328e2e7118d48.html" target="_blank" rel="noopener">地址</a></li></ul></li><li><p>2、在_config.yml中配置图片</p><pre><code>reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！wechatpay: /images/wechat.jpgalipay: /images/aipay.png</code></pre></li></ul><p>注意：wechat.jpg、aipay.png图片放入themes/next/source/images中</p><ul><li><p>3、修复煽动bug</p><pre><code>地址：修改next/source/css/_common/components/post/post-reward.styl，注释wechat:hover和alipay:hover/* 注释文字闪动函数#wechat:hover p{animation: roll 0.1s infinite linear;-webkit-animation: roll 0.1s infinite linear;-moz-animation: roll 0.1s infinite linear;}#alipay:hover p{animation: roll 0.1s infinite linear;-webkit-animation: roll 0.1s infinite linear;-moz-animation: roll 0.1s infinite linear;}*/</code></pre></li><li><p>4、效果</p></li></ul><p><img src="http://setbo.ekangcn.com/pay.png" alt="image"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Hexo的next主题打赏&quot;&gt;&lt;a href=&quot;#Hexo的next主题打赏&quot; class=&quot;headerlink&quot; title=&quot;Hexo的next主题打赏&quot;&gt;&lt;/a&gt;Hexo的next主题打赏&lt;/h3&gt;&lt;h5 id=&quot;增加打赏配置&quot;&gt;&lt;a href=&quot;#增加打赏配置&quot; class=&quot;headerlink&quot; title=&quot;增加打赏配置&quot;&gt;&lt;/a&gt;增加打赏配置&lt;/h5&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo开启打赏" scheme="http://yoursite.com/tags/Hexo%E5%BC%80%E5%90%AF%E6%89%93%E8%B5%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>个人生活-骑机车</title>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo开启打赏功能]]></title>
+    <url>%2F2019%2F12%2F04%2Fhexo-one-blog%2F</url>
+    <content type="text"><![CDATA[Hexo的next主题打赏增加打赏配置 1、准备支付宝和微信二维码 微信生成二维码教程地址 支付宝生成二维码地址 2、在_config.yml中配置图片 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！ wechatpay: /images/wechat.jpg alipay: /images/aipay.png 注意：wechat.jpg、aipay.png图片放入themes/next/source/images中 3、修复煽动bug 地址：修改next/source/css/_common/components/post/post-reward.styl，注释wechat:hover和alipay:hover /* 注释文字闪动函数 #wechat:hover p{ animation: roll 0.1s infinite linear; -webkit-animation: roll 0.1s infinite linear; -moz-animation: roll 0.1s infinite linear; } #alipay:hover p{ animation: roll 0.1s infinite linear; -webkit-animation: roll 0.1s infinite linear; -moz-animation: roll 0.1s infinite linear; } */ 4、效果]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo开启打赏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[个人生活-骑机车]]></title>
     <url>%2F2019%2F11%2F06%2Fmmy-life-moto%2F</url>
     <content type="text"><![CDATA[1.第一次接触机车 &emsp;&emsp;当时和我哥（结拜兄弟）一起玩过机车所以就有所接触,我哥也是多才多艺之人，有时间多给你们介绍介绍 目前他单身 性格很好 人非常不错 不是我吹牛逼！！！ &emsp;&emsp;回老家看望我姥爷 当时夏天 天气也不错 我哥骑着他的MOTO 载着我一起去。回来的路上感觉不错 就和我哥提意我要骑上试试 这一试不要紧 试了就感觉骑上很自由 我感觉我瞧不上其他人 膨胀了 哈哈哈哈~ 然后回北京 开始我的机车纪元······ 2.北京机车纪元 2.1 买小蓝（机车）（17年6月）&emsp;&emsp;我在17年6.18买的铃木GSX-250R当时第几批车 我也忘记了 交了800押金（整车3W多一点儿 加上车牌费+保险） 等了一个多月 差不多！！！ 最后通知我去提车，给我激动坏了 ！！！(这里有一个雷，我下面会说到。我目前试C1驾照，如果你没有驾驶证我建议你去考一个D（三轮包含两轮）或者E（两轮不包含三轮）都可以，如果你有驾驶证 建议你增驾要不然你会像我一样 我下面说到。不要做没把握的事情嚄。) 附图： 订单图机车图 2.2 加入百邦机车车队（17年8月）&emsp;&emsp;当时我阴差阳错的找到了车队 一起玩车 一起玩耍 一起吹牛逼 ！！！一起捏脚O(∩_∩)O (￣▽￣)” ！！！附图： 2.3 人生第一骑（17年10月）&emsp;&emsp;我当时没本 心理还年轻 突然有天晚上冒出一个想法 骑车回家 ！！！ 卧槽 我当时脑子可能被驴踢了 说干就干 10.1日 中午12点出发 从北京-大同 骑了整整 7个小时才到家 到家已经晚上 7-8点了 我妈不知道我要骑车回去 当我踏入家里的那一刻 我妈流泪了 இ௰இ 说：”儿子！你把妈吓得心脏都受不了！！！”；和我妈唠了一晚上 就那样疲惫得睡着了 ！第二天我就骑着我心爱de小摩托 出去装逼去了 由于我老家也是路游景点（北岳恒山、悬空寺、大同古城）一个北京四轮车牌摇下窗 问我哥们 你哪儿得人 我说本地人（可能因为我机车上得京B牌照他才问我） 问我怎么来得 我说从北京骑过来得 那哥们说 “兄弟，牛逼！！！” 把我高兴坏了！！！ 我就继续去装逼了 由于GSX刚出没两年 我可能是我们县城 里面第一辆GSX 说真的很骄傲 我第一次觉得 骑车比开车自由 ！！！附图： 老家风景照： 2.3 交通违法（18年4月）&emsp;&emsp;当时送同事晚上回家吃饭 没想到遇到查酒驾的 我估摸着查酒驾也不会查摩托车 刚到桥下就被交警拦下 吃了罚单 被记14分（驾驶不符12分 没带驾照1分 还多扣了1分 尼玛我当时心理MMP 罚款2000 连续学习一周）经历了各种磨难 终于重新拿到驾照了 ┭┮﹏┭┮~！！！就这样开开心心骑了一年 买车了 ！ 附图： 2.4 卖小蓝（车机)（18年11月15日）&emsp;&emsp;当时快冬天了 自己攒点儿小钱回老家买一辆四轮 我就把小蓝封车了 刚好买车钱也不够 决定牺牲我心爱的小蓝 本来不想卖车贩子 但是由于我一时疏忽 被车贩子给玩了 卖了小蓝当天晚上我内心说不出得心情复杂。在我手里也玩坏了他 也不知道它现在在谁的胯下受辱 也许这也是我青春得一部分 现在老了玩不动了 如果再来 我也不后悔选择机车 以后还能和我子女吹吹牛逼！！！(￣▽￣)” 我拥有过小蓝我也无怨无悔和它经历也很多 也是我人生第一辆车 愿你们都能骑上自己心爱的小摩托 骚年么加油！！！ 附图： 小蓝被卖图：]]></content>

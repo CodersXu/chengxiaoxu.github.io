@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[个人生活-出差]]></title>
+    <url>%2F2020%2F01%2F06%2Fsheng-onelog%2F</url>
+    <content type="text"><![CDATA[1.第一次出差郑州 &emsp;&emsp;这是我工作多年 第一次出差 目的地河南-&gt;郑州 hhhhh 还是无比的开心 但是有点儿累人 赶车没赶上 &emsp;&emsp;先简单介绍一下我的路程······ 2.路程 &emsp;&emsp;单位 武清 出发-&gt;武清站-&gt;天津站-&gt;天津站-&gt;郑州东]]></content>
+      <categories>
+        <category>My Life(个人生活)</category>
+      </categories>
+      <tags>
+        <tag>出差</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[PHP 中文按照拼音字母排序实现方式]]></title>
     <url>%2F2019%2F12%2F06%2Fphp-one-php%2F</url>
     <content type="text"><![CDATA[汉字按首字母排序（JAVASCRIPT，PHP，MYSQL实现） 1.javascript实现 注意： 指定排序函数时，和当前系统的区域设置有关系，如果是按照别的区域设置排序，可改。firefox下通过，360不支持。 var a = [&quot;啊&quot;,&quot;得啊_123&quot;,&quot;得啊_0124&quot;,&quot;波啊&quot;,&quot;婆&quot;]; a.sort(); //原始数据排序 a.sort(function(a,b){return a.localeCompare(b)}); //指定排序函数 2. php实现 网络上很多php的工具类可以将汉字转为拼音； 将拼音进行排序即可 另一种则是类似mysql转码方式： foreach ($array as $key=&gt;$value) { $new_array[$key] = iconv(&apos;UTF-8&apos;, &apos;GBK&apos;, $value); } asort($new_array); foreach ($new_array as $key=&gt;$value) { $array[$key] = iconv(&apos;GBK&apos;, &apos;UTF-8&apos;, $value); } 3.mysql实现 如果当前数据库编码是utf-8，则进行转码，转为gbk，gbk默认汉字按照拼音排序存放： SELECT * FROM USER ORDER BY convert(uname using gbk) ASC 如果当前编码为gbk则： SELECT ＊ FROM USER ORDER BY uname ASC]]></content>

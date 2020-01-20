@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-06T03:49:40.959Z</updated>
+  <updated>2020-01-06T04:23:35.359Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人生活-出差</title>
+    <link href="http://yoursite.com/2020/01/06/sheng-onelog/"/>
+    <id>http://yoursite.com/2020/01/06/sheng-onelog/</id>
+    <published>2020-01-06T04:09:37.000Z</published>
+    <updated>2020-01-06T04:23:35.359Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-第一次出差郑州"><a href="#1-第一次出差郑州" class="headerlink" title="1.第一次出差郑州"></a>1.第一次出差郑州</h3><hr><p>&emsp;&emsp;这是我工作多年 第一次出差 目的地河南-&gt;郑州 hhhhh 还是无比的开心 但是有点儿累人 赶车没赶上</p><p>&emsp;&emsp;先简单介绍一下我的路程······ </p><a id="more"></a><hr><h3 id="2-路程"><a href="#2-路程" class="headerlink" title="2.路程"></a>2.路程</h3><hr><p>&emsp;&emsp;单位 武清 出发-&gt;武清站-&gt;天津站-&gt;天津站-&gt;郑州东  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-第一次出差郑州&quot;&gt;&lt;a href=&quot;#1-第一次出差郑州&quot; class=&quot;headerlink&quot; title=&quot;1.第一次出差郑州&quot;&gt;&lt;/a&gt;1.第一次出差郑州&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;这是我工作多年 第一次出差 目的地河南-&amp;gt;郑州 hhhhh 还是无比的开心 但是有点儿累人 赶车没赶上&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;先简单介绍一下我的路程······ &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="My Life(个人生活)" scheme="http://yoursite.com/categories/My-Life-%E4%B8%AA%E4%BA%BA%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="出差" scheme="http://yoursite.com/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>PHP 中文按照拼音字母排序实现方式</title>
